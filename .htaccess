@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^vendor/ - [L,R=404]
+
+RewriteRule ^(?!src/)(.*)$ /src/$1
