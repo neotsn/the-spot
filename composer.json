@@ -1,0 +1,19 @@
+{
+  "name": "tsn/the-spot",
+  "description": "front-end for the inbox/api-based phpbb forum concept",
+  "authors": [
+    {
+      "name": "@neotsn",
+      "email": "the-spot@the-spot.net"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/neotsn/pizzy-db"
+    }
+  ],
+  "require": {
+    "pizzy/dbpdo": "dev"
+  }
+}
