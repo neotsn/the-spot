@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3fca7a416110520d2a6c19df429c8c70",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "Pizzy/DbPdo",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neotsn/pizzy-db.git",
+                "reference": "53a844609254295a4176e65cd26499d00fbdd50d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neotsn/pizzy-db/zipball/53a844609254295a4176e65cd26499d00fbdd50d",
+                "reference": "53a844609254295a4176e65cd26499d00fbdd50d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pizzy\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "@neotsn",
+                    "email": "pizzy-db@thepizzy.net"
+                }
+            ],
+            "description": "DB PDO for thepizzy.net lab projects",
+            "support": {
+                "source": "https://github.com/neotsn/pizzy-db/tree/v0.1.0",
+                "issues": "https://github.com/neotsn/pizzy-db/issues"
+            },
+            "time": "2015-07-19 16:23:12"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

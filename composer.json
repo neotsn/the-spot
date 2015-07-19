@@ -1,6 +1,8 @@
 {
   "name": "tsn/the-spot",
   "description": "front-end for the inbox/api-based phpbb forum concept",
+  "license": "MIT",
+  "keywords": ["phpbb","tsn","the spot","neo"],
   "authors": [
     {
       "name": "@neotsn",
@@ -13,7 +15,14 @@
       "url": "https://github.com/neotsn/pizzy-db"
     }
   ],
-  "require": {
-    "pizzy/dbpdo": "dev"
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev": {
+    "Pizzy/DbPdo": "0.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "tsn\\": "src"
+    }
   }
 }

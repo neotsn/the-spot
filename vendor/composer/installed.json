@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Pizzy/DbPdo",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/neotsn/pizzy-db.git",
+            "reference": "53a844609254295a4176e65cd26499d00fbdd50d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/neotsn/pizzy-db/zipball/53a844609254295a4176e65cd26499d00fbdd50d",
+            "reference": "53a844609254295a4176e65cd26499d00fbdd50d",
+            "shasum": ""
+        },
+        "time": "2015-07-19 16:23:12",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Pizzy\\": "src/"
+            }
+        },
+        "authors": [
+            {
+                "name": "@neotsn",
+                "email": "pizzy-db@thepizzy.net"
+            }
+        ],
+        "description": "DB PDO for thepizzy.net lab projects",
+        "support": {
+            "source": "https://github.com/neotsn/pizzy-db/tree/v0.1.0",
+            "issues": "https://github.com/neotsn/pizzy-db/issues"
+        }
+    }
+]
