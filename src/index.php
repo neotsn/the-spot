@@ -1,7 +1,7 @@
 <?php
 
-namespace
+namespace tsn;
 
 use \Pizzy\DbPdo;
 
-$test = new DbPdo();
+echo "test worked";
