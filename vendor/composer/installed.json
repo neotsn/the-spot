@@ -1,20 +1,20 @@
 [
     {
         "name": "Pizzy/DbPdo",
-        "version": "v0.1.0",
-        "version_normalized": "0.1.0.0",
+        "version": "v0.1.2",
+        "version_normalized": "0.1.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/neotsn/pizzy-db.git",
-            "reference": "53a844609254295a4176e65cd26499d00fbdd50d"
+            "reference": "4c515a38d7604df49d99a4031c7f1300ba01a3cf"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/neotsn/pizzy-db/zipball/53a844609254295a4176e65cd26499d00fbdd50d",
-            "reference": "53a844609254295a4176e65cd26499d00fbdd50d",
+            "url": "https://api.github.com/repos/neotsn/pizzy-db/zipball/4c515a38d7604df49d99a4031c7f1300ba01a3cf",
+            "reference": "4c515a38d7604df49d99a4031c7f1300ba01a3cf",
             "shasum": ""
         },
-        "time": "2015-07-19 16:23:12",
+        "time": "2015-07-19 21:33:20",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -30,8 +30,43 @@
         ],
         "description": "DB PDO for thepizzy.net lab projects",
         "support": {
-            "source": "https://github.com/neotsn/pizzy-db/tree/v0.1.0",
+            "source": "https://github.com/neotsn/pizzy-db/tree/v0.1.2",
             "issues": "https://github.com/neotsn/pizzy-db/issues"
+        }
+    },
+    {
+        "name": "Pizzy/Template",
+        "version": "v0.1.4",
+        "version_normalized": "0.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/neotsn/pizzy-templates.git",
+            "reference": "12de1dc9ea9cc2fd551f000c00f4b5e2bf84d3de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/neotsn/pizzy-templates/zipball/12de1dc9ea9cc2fd551f000c00f4b5e2bf84d3de",
+            "reference": "12de1dc9ea9cc2fd551f000c00f4b5e2bf84d3de",
+            "shasum": ""
+        },
+        "time": "2015-07-19 22:42:17",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Pizzy\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "@neotsn",
+                "email": "pizzy-templates@thepizzy.net"
+            }
+        ],
+        "description": "Template System for thepizzy.net lab projects",
+        "support": {
+            "source": "https://github.com/neotsn/pizzy-templates/tree/v0.1.4",
+            "issues": "https://github.com/neotsn/pizzy-templates/issues"
         }
     }
 ]

@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3fca7a416110520d2a6c19df429c8c70",
+    "hash": "648a72c290cf2b18ab5e915d2e61e7d2",
     "packages": [],
     "packages-dev": [
         {
             "name": "Pizzy/DbPdo",
-            "version": "v0.1.0",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neotsn/pizzy-db.git",
-                "reference": "53a844609254295a4176e65cd26499d00fbdd50d"
+                "reference": "4c515a38d7604df49d99a4031c7f1300ba01a3cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neotsn/pizzy-db/zipball/53a844609254295a4176e65cd26499d00fbdd50d",
-                "reference": "53a844609254295a4176e65cd26499d00fbdd50d",
+                "url": "https://api.github.com/repos/neotsn/pizzy-db/zipball/4c515a38d7604df49d99a4031c7f1300ba01a3cf",
+                "reference": "4c515a38d7604df49d99a4031c7f1300ba01a3cf",
                 "shasum": ""
             },
             "type": "library",
@@ -35,10 +35,43 @@
             ],
             "description": "DB PDO for thepizzy.net lab projects",
             "support": {
-                "source": "https://github.com/neotsn/pizzy-db/tree/v0.1.0",
+                "source": "https://github.com/neotsn/pizzy-db/tree/v0.1.2",
                 "issues": "https://github.com/neotsn/pizzy-db/issues"
             },
-            "time": "2015-07-19 16:23:12"
+            "time": "2015-07-19 21:33:20"
+        },
+        {
+            "name": "Pizzy/Template",
+            "version": "v0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neotsn/pizzy-templates.git",
+                "reference": "12de1dc9ea9cc2fd551f000c00f4b5e2bf84d3de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neotsn/pizzy-templates/zipball/12de1dc9ea9cc2fd551f000c00f4b5e2bf84d3de",
+                "reference": "12de1dc9ea9cc2fd551f000c00f4b5e2bf84d3de",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pizzy\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "@neotsn",
+                    "email": "pizzy-templates@thepizzy.net"
+                }
+            ],
+            "description": "Template System for thepizzy.net lab projects",
+            "support": {
+                "source": "https://github.com/neotsn/pizzy-templates/tree/v0.1.4",
+                "issues": "https://github.com/neotsn/pizzy-templates/issues"
+            },
+            "time": "2015-07-19 22:42:17"
         }
     ],
     "aliases": [],

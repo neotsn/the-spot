@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'tsn\\' => array($baseDir . '/src'),
-    'Pizzy\\' => array($vendorDir . '/Pizzy/DbPdo/src'),
+    'tsn\\' => array($baseDir . '/app/tsn'),
+    'Pizzy\\' => array($vendorDir . '/Pizzy/DbPdo/src', $vendorDir . '/Pizzy/Template/src'),
 );

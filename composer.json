@@ -13,16 +13,21 @@
     {
       "type": "vcs",
       "url": "https://github.com/neotsn/pizzy-db"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/neotsn/pizzy-templates"
     }
   ],
   "minimum-stability": "dev",
   "require": {},
   "require-dev": {
-    "Pizzy/DbPdo": "0.1.*"
+    "Pizzy/DbPdo": "0.1.*",
+    "Pizzy/Template": "0.1.*"
   },
   "autoload": {
     "psr-4": {
-      "tsn\\": "src"
+      "tsn\\": "app/tsn"
     }
   }
 }
