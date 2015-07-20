@@ -1,0 +1,21 @@
+{
+  "name": "Pizzy/Template",
+  "description": "Template System for thepizzy.net lab projects",
+  "authors": [
+    {
+      "name": "@neotsn",
+      "email": "pizzy-templates@thepizzy.net"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/neotsn/pizzy-templates"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pizzy\\": "src"
+    }
+  }
+}
